@@ -20,6 +20,8 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'jvirtanen/vim-octave'
     " python
     " Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
+    " Elixir
+    Plug 'elixir-editors/vim-elixir'
 
     " molokai theme 
     Plug 'tomasr/molokai'

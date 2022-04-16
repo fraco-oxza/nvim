@@ -9,7 +9,8 @@ let g:coc_global_extensions = [
     \ 'coc-marketplace',
     \ 'coc-spell-checker',
     \ 'coc-cspell-dicts',
-    \ 'coc-tabnine'
+    \ 'coc-tabnine',
+    \ 'coc-docker'
 \ ]
 
 " TextEdit might fail if hidden is not set.
