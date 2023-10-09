@@ -5,8 +5,12 @@ nnoremap <leader>cd :cd %:p:h<cr>
 map <F2> :NERDTreeToggle<cr>
 
 " Open Fzf
-map <tab> :GFiles<cr>
-map <S-tab> :Files<cr>
+map fg :GFiles<cr>
+map ff :Files<cr>
+map fl :Lines<cr>
+map fbl :BLines<cr>
+map fc :Commits<cr>
+map fbc :BCommits<cr>
 
 " Configuration 
 let g:floaterm_keymap_new    = '<F7>'
@@ -49,5 +53,3 @@ vmap <C-h> :bp<cr>
 nmap <C-k> :bd<cr>
 vmap <C-k> :bd<cr>
 
-nmap ] <Plug>(GitGutterNextHunk)
-nmap [ <Plug>(GitGutterPrevHunk)

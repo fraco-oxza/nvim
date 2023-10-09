@@ -13,6 +13,7 @@ set hidden
 set path+=**
 set nowrap
 set encoding=UTF-8
+set clipboard=unnamedplus
 
 set number 
 set mouse=
