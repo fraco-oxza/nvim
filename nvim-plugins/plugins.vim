@@ -4,6 +4,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'sainnhe/gruvbox-material'
 
     Plug 'nvim-treesitter/nvim-treesitter'
+    Plug 'github/copilot.vim'
 
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
